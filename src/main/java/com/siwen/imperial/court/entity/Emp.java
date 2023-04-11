@@ -1,9 +1,6 @@
 package com.siwen.imperial.court.entity;
 
-import lombok.AllArgsConstructor;
-import lombok.Getter;
-import lombok.NoArgsConstructor;
-import lombok.Setter;
+import lombok.*;
 
 /**
  * @projectName: pro01-all-in-one-demo
@@ -19,6 +16,7 @@ import lombok.Setter;
 @AllArgsConstructor
 @Getter
 @Setter
+@ToString
 public class Emp {
     private Integer empId;
     private String empName;
